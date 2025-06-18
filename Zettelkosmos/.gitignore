@@ -1,0 +1,10 @@
+# macOSの不要ファイル
+.DS_Store
+
+# Obsidianの一時ファイル・キャッシュ・UI設定
+.obsidian/cache
+.obsidian/workspace.json
+
+# その他：一時ファイルやバックアップ
+*.tmp
+*.bak
