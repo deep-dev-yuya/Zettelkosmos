@@ -1,0 +1,77 @@
+:root {
+  /* === 基本フォント設定 === */
+  --font-text: "Noto Sans JP", sans-serif;
+  --font-ui: "Hiragino Sans", sans-serif;
+  --font-monospace: "Fira Code", monospace;
+
+  /* === 文字サイズと行間 === */
+  --font-size: 16px;
+  --line-height: 1.75;
+}
+
+/* === 見出しスタイル === */
+h1 {
+  font-size: 1.8em;
+  color: #ff6f61;
+  border-bottom: 2px solid #ff6f61;
+  padding-bottom: 0.2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #ffaa00;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: #00bfa6;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* === コードブロックとインラインコード === */
+code {
+  background-color: #222;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: "Fira Code", monospace;
+}
+
+pre code {
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  background-color: #1e1e1e;
+  border-radius: 6px;
+}
+
+/* === 引用（blockquote） === */
+blockquote {
+  border-left: 4px solid #ffaa00;
+  background-color: #1e1e1e;
+  padding: 0.8em 1.2em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: #ddd;
+}
+
+/* === 内部リンクの強調 === */
+.internal-link {
+  color: #4aa8ff;
+  text-decoration: underline dotted;
+}
+
+/* === 外部リンクも明確に区別 === */
+.external-link {
+  color: #ffae00;
+  text-decoration: underline;
+}
+
+/* === タスクリストのチェックボックスの余白微調整 === */
+.cm-formatting-task {
+  margin-right: 4px;
+}
