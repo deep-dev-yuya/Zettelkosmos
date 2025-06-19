@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "05_📚Reference/GitHub_Obsidian_構造ノート.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "GitHub_Obsidian_構造ノート"
             }
           }
         ],
@@ -176,9 +176,16 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "88cf340a3ee2f50f",
+  "active": "db5e166ab9140b9a",
   "lastOpenFiles": [
+    "05_📚Reference/GitHub_Push_Guide_For_Beginners.md",
+    "05_📚Reference/GitHub_Obsidian_構造ノート.md",
+    "05_📚Reference/Git_Obsidian_Guide.md",
+    "03_Tools/CSSスニペット構成記録.md",
     "README.md",
+    "03_Tools",
+    "00_📥index/無題のフォルダ",
+    "10_🧰Templates/ChatGPT_Obsidian_Dataview_Template.md",
     "無題のファイル.md",
     "90_📦Archive",
     "20_🛠️Projects",

@@ -1,77 +1,102 @@
-:root {
-  /* === 基本フォント設定 === */
-  --font-text: "Noto Sans JP", sans-serif;
-  --font-ui: "Hiragino Sans", sans-serif;
-  --font-monospace: "Fira Code", monospace;
+/* Minimal Headings JP（ベース） + 拡張版 */
 
-  /* === 文字サイズと行間 === */
-  --font-size: 16px;
-  --line-height: 1.75;
+/* === 全体フォント統一（日本語向け）=== */
+body, .markdown-preview-view {
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-/* === 見出しスタイル === */
-h1 {
+/* === 見出しカラー・サイズ調整 === */
+.markdown-preview-view h1 {
+  color: #ff4f4f; /* 強調された赤 */
   font-size: 1.8em;
-  color: #ff6f61;
-  border-bottom: 2px solid #ff6f61;
+  font-weight: 700;
+  margin-top: 2.2em;
+  border-bottom: 2px solid rgba(255, 79, 79, 0.2);
   padding-bottom: 0.2em;
-  margin-top: 2em;
-  margin-bottom: 1em;
 }
 
-h2 {
+.markdown-preview-view h2 {
+  color: #ffa500; /* オレンジ */
   font-size: 1.5em;
-  color: #ffaa00;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  font-weight: 600;
+  margin-top: 1.8em;
 }
 
-h3 {
+.markdown-preview-view h3 {
+  color: #e3c000; /* ゴールド寄りの黄 */
   font-size: 1.3em;
-  color: #00bfa6;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  font-weight: 600;
+  margin-top: 1.5em;
 }
 
-/* === コードブロックとインラインコード === */
-code {
-  background-color: #222;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-family: "Fira Code", monospace;
+/* === チェックリストの視認性向上 === */
+input[type="checkbox"]:checked + p::before {
+  content: "\2713 ";
+  color: #4caf50; /* 緑色チェック */
+  font-weight: bold;
 }
 
-pre code {
-  display: block;
-  padding: 1em;
-  overflow-x: auto;
-  background-color: #1e1e1e;
-  border-radius: 6px;
+input[type="checkbox"] + p::before {
+  content: "\2610 ";
+  color: #aaa;
 }
 
-/* === 引用（blockquote） === */
-blockquote {
-  border-left: 4px solid #ffaa00;
-  background-color: #1e1e1e;
-  padding: 0.8em 1.2em;
-  margin: 1.5em 0;
-  font-style: italic;
-  color: #ddd;
-}
-
-/* === 内部リンクの強調 === */
-.internal-link {
-  color: #4aa8ff;
+/* === ハイパーリンク強調 === */
+.markdown-preview-view a {
+  color: #ffa500; /* オレンジ */
+  font-weight: 600;
   text-decoration: underline dotted;
 }
 
-/* === 外部リンクも明確に区別 === */
-.external-link {
-  color: #ffae00;
-  text-decoration: underline;
+/* === カスタムタグ風装飾（#important など）=== */
+.cm-s-obsidian span.cm-hashtag.cm-tag-important,
+.markdown-preview-view .tag[href="#important"] {
+  background-color: #ff4f4f33;
+  border: 1px solid #ff4f4f;
+  color: #ff4f4f;
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-weight: bold;
 }
 
-/* === タスクリストのチェックボックスの余白微調整 === */
-.cm-formatting-task {
-  margin-right: 4px;
+.cm-s-obsidian span.cm-hashtag.cm-tag-tips,
+.markdown-preview-view .tag[href="#tips"] {
+  background-color: #00bcd433;
+  border: 1px solid #00bcd4;
+  color: #007c91;
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-weight: bold;
+}
+
+/* === カスタムタグ追加 === */
+
+.markdown-preview-view .tag[href=\"#done\"],
+.cm-s-obsidian span.cm-hashtag.cm-tag-done {
+  background-color: #4caf5033;
+  border: 1px solid #4caf50;
+  color: #2e7d32;
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-weight: bold;
+}
+
+.markdown-preview-view .tag[href=\"#memo\"],
+.cm-s-obsidian span.cm-hashtag.cm-tag-memo {
+  background-color: #2196f333;
+  border: 1px solid #2196f3;
+  color: #1565c0;
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-weight: bold;
+}
+
+.markdown-preview-view .tag[href=\"#warning\"],
+.cm-s-obsidian span.cm-hashtag.cm-tag-warning {
+  background-color: #ff980033;
+  border: 1px solid #ff9800;
+  color: #e65100;
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-weight: bold;
 }
