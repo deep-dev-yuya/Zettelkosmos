@@ -1,102 +1,127 @@
-/* Minimal Headings JP（ベース） + 拡張版 */
+/* === Obsidian CSS Snippet: 完全最強版 for Minimalテーマ === */
 
-/* === 全体フォント統一（日本語向け）=== */
-body, .markdown-preview-view {
-  font-family: 'Noto Sans JP', sans-serif;
+/* ========== 共通設定 ========== */
+:root {
+  --font-code: 'Fira Code', monospace;
+  --callout-radius: 12px;
+  --callout-border: 2px solid var(--interactive-accent);
+  --inline-code-bg: #2d2d2d;
+  --inline-code-color: #f8f8f2;
+  --inline-code-border: 1px solid #555;
+  --dataview-table-border: 1px solid var(--background-modifier-border);
 }
 
-/* === 見出しカラー・サイズ調整 === */
-.markdown-preview-view h1 {
-  color: #ff4f4f; /* 強調された赤 */
-  font-size: 1.8em;
-  font-weight: 700;
-  margin-top: 2.2em;
-  border-bottom: 2px solid rgba(255, 79, 79, 0.2);
-  padding-bottom: 0.2em;
+/* ========== Dataview テーブル ========== */
+table.dataview, table.dataview th, table.dataview td {
+  border: var(--dataview-table-border);
+  padding: 6px 12px;
+  border-collapse: collapse;
 }
-
-.markdown-preview-view h2 {
-  color: #ffa500; /* オレンジ */
-  font-size: 1.5em;
-  font-weight: 600;
-  margin-top: 1.8em;
+table.dataview tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.04);
 }
-
-.markdown-preview-view h3 {
-  color: #e3c000; /* ゴールド寄りの黄 */
-  font-size: 1.3em;
-  font-weight: 600;
-  margin-top: 1.5em;
-}
-
-/* === チェックリストの視認性向上 === */
-input[type="checkbox"]:checked + p::before {
-  content: "\2713 ";
-  color: #4caf50; /* 緑色チェック */
+table.dataview th {
+  background-color: var(--background-secondary);
   font-weight: bold;
 }
 
-input[type="checkbox"] + p::before {
-  content: "\2610 ";
-  color: #aaa;
+/* ========== Dataview リスト ========== */
+ul.dataview-ul li {
+  padding: 6px 8px;
+  border-left: 3px solid var(--interactive-accent);
+  margin-bottom: 4px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 6px;
 }
 
-/* === ハイパーリンク強調 === */
-.markdown-preview-view a {
-  color: #ffa500; /* オレンジ */
-  font-weight: 600;
-  text-decoration: underline dotted;
+/* ========== コードブロック ========== */
+.markdown-rendered pre code {
+  background-color: #1e1e1e;
+  color: #f8f8f2;
+  font-family: var(--font-code);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1em;
+  overflow-x: auto;
 }
 
-/* === カスタムタグ風装飾（#important など）=== */
-.cm-s-obsidian span.cm-hashtag.cm-tag-important,
-.markdown-preview-view .tag[href="#important"] {
-  background-color: #ff4f4f33;
-  border: 1px solid #ff4f4f;
-  color: #ff4f4f;
-  border-radius: 5px;
-  padding: 1px 6px;
+/* ========== インラインコード ========== */
+.markdown-rendered code {
+  background-color: var(--inline-code-bg);
+  color: var(--inline-code-color);
+  border: var(--inline-code-border);
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 90%;
+}
+
+/* ========== Callout 装飾 ========== */
+.callout {
+  border: var(--callout-border);
+  border-radius: var(--callout-radius);
+  padding: 1em;
+  margin: 1em 0;
+  background-color: var(--background-secondary-alt);
+}
+.callout-title {
   font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
 }
 
-.cm-s-obsidian span.cm-hashtag.cm-tag-tips,
-.markdown-preview-view .tag[href="#tips"] {
-  background-color: #00bcd433;
-  border: 1px solid #00bcd4;
-  color: #007c91;
-  border-radius: 5px;
-  padding: 1px 6px;
-  font-weight: bold;
+/* ========== チェックリスト強化 ========== */
+input[type="checkbox"]:checked {
+  accent-color: var(--interactive-accent);
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
 
-/* === カスタムタグ追加 === */
-
-.markdown-preview-view .tag[href=\"#done\"],
-.cm-s-obsidian span.cm-hashtag.cm-tag-done {
-  background-color: #4caf5033;
-  border: 1px solid #4caf50;
-  color: #2e7d32;
-  border-radius: 5px;
-  padding: 1px 6px;
-  font-weight: bold;
+/* ========== 目次（toc）改善 ========== */
+.internal-link[data-href*="#"]::before {
+  content: '↪';
+  margin-right: 0.25em;
+  color: var(--interactive-accent);
 }
 
-.markdown-preview-view .tag[href=\"#memo\"],
-.cm-s-obsidian span.cm-hashtag.cm-tag-memo {
-  background-color: #2196f333;
-  border: 1px solid #2196f3;
-  color: #1565c0;
-  border-radius: 5px;
-  padding: 1px 6px;
-  font-weight: bold;
+/* ========== 引用（>）スタイル ========== */
+.markdown-rendered blockquote {
+  border-left: 4px solid var(--color-accent);
+  padding-left: 1em;
+  color: var(--text-muted);
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 4px;
 }
 
-.markdown-preview-view .tag[href=\"#warning\"],
-.cm-s-obsidian span.cm-hashtag.cm-tag-warning {
-  background-color: #ff980033;
-  border: 1px solid #ff9800;
-  color: #e65100;
-  border-radius: 5px;
-  padding: 1px 6px;
-  font-weight: bold;
+/* ========== タグスタイル ========== */
+a.tag {
+  background-color: var(--background-secondary-alt);
+  color: var(--text-accent);
+  border: 1px solid var(--interactive-accent);
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-size: 85%;
+  margin-right: 4px;
+  transition: transform 0.2s ease;
+}
+a.tag:hover {
+  transform: scale(1.1);
+  background-color: var(--background-modifier-hover);
+}
+
+/* ========== 脚注 ========== */
+sup.footnote-ref {
+  font-size: 0.75em;
+  background-color: var(--background-secondary);
+  padding: 0 4px;
+  border-radius: 4px;
+  color: var(--text-muted);
+}
+
+/* ========== アイコンアニメーション ========== */
+svg {
+  transition: all 0.3s ease-in-out;
+}
+svg:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 4px var(--interactive-accent));
 }
