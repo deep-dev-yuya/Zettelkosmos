@@ -1,5 +1,10 @@
 [
   "dataview",
   "obsidian-style-settings",
-  "obsidian-minimal-settings"
+  "templater-obsidian",
+  "quickadd",
+  "periodic-notes",
+  "obsidian-minimal-settings",
+  "calendar",
+  "tag-wrangler"
 ]

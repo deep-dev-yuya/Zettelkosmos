@@ -3,5 +3,9 @@
   "enabledCssSnippets": [
     "custom-font",
     "zettel-style"
-  ]
+  ],
+  "accentColor": "",
+  "theme": "system",
+  "showRibbon": true,
+  "translucency": true
 }

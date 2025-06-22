@@ -125,3 +125,31 @@ svg:hover {
   transform: scale(1.2);
   filter: drop-shadow(0 0 4px var(--interactive-accent));
 }
+
+/* Obsidian内のツールチップやホバー表示を非表示にする */
+.markdown-preview-view .tooltip,
+.markdown-preview-view .hover-popover,
+.markdown-preview-view .cm-tooltip,
+.markdown-preview-view .context-info,
+.markdown-preview-view .callout-hover {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+.workspace-leaf.mod-active .view-content {
+  box-shadow: 0 0 0 2px var(--color-accent);
+}
+.workspace-split.mod-vertical > .workspace-leaf {
+  border-left: 1px solid var(--background-modifier-border);
+}
+.workspace-split.mod-horizontal > .workspace-leaf {
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.view-header-title::after {
+  content: attr(data-path);
+  font-size: 0.7em;
+  color: var(--text-muted);
+  display: block;
+}
+

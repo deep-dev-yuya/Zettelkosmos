@@ -4,35 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "0559e797a27b07f4",
+        "id": "2585b94bb4a5d337",
         "type": "tabs",
         "children": [
           {
-            "id": "054abdc732e71293",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
-            }
-          },
-          {
-            "id": "db5e166ab9140b9a",
+            "id": "e573e7398441f1e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_🧰Templates/Obsidian_CSS_snippet_note.md",
-                "mode": "preview",
+                "file": "README.md.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian_CSS_snippet_note"
+              "title": "README.md"
+            }
+          },
+          {
+            "id": "828779e9b9537a7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08_Guides/Markdown_Structure_Guide_Revised.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Markdown_Structure_Guide_Revised"
+            }
+          },
+          {
+            "id": "ff56b228d4339e4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20_🛠️Projects/Zettelkosmos_Setup_TaskList.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zettelkosmos_Setup_TaskList"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "beae9eb36d5d8dd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa588430a5d40d30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07_📓Logs/2025-06-22.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-06-22"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,6 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "07_📓Logs/2025-06-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +153,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "2025-06-22へのバックリンク"
             }
           },
           {
@@ -151,59 +190,83 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "07_📓Logs/2025-06-22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "2025-06-22のアウトライン"
+            }
+          },
+          {
+            "id": "9cd758be5bf275e3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
+      "templater-obsidian:Templater": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "periodic-notes:Open today": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "db5e166ab9140b9a",
+  "active": "aa588430a5d40d30",
   "lastOpenFiles": [
-    "10_🧰Templates/ChatGPT_Obsidian_Dataview_Template.md",
-    "10_🧰Templates/Obsidian_CSS_snippet_note.md",
-    "05_📚Reference/ShortCut_Mac基本.md",
-    "README.md",
-    "05_📚Reference/Shortcut_Obsidian.md",
-    "05_📚Reference/Shortcut_iTerm2.md",
-    "05_📚Reference/Shortcut_Editor.md",
-    "05_📚Reference/Shortcut_ArcBrowser.md",
-    "05_📚Reference/GitHub_Push_Guide_For_Beginners.md",
-    "05_📚Reference/GitHub_Obsidian_構造ノート.md",
-    "05_📚Reference/Dataview_Query_Sample.md",
-    "05_📚Reference/dataview_guide.md",
-    "03_Tools/CSSスニペット構成記録.md",
-    "00_📥index/Shortcut_MOC.md",
-    "00_📥index/Git_Obsidian_Guide_MOC.md",
-    "Shortcut_Mac基本.md",
-    "05_📚Reference/Git_Obsidian_Guide.md",
-    "03_Tools",
-    "00_📥index/無題のフォルダ",
-    "無題のファイル.md",
-    "90_📦Archive",
-    "20_🛠️Projects",
-    "10_🧰Templates",
-    "05_📚Reference",
-    "00_📥index/無題のフォルダ",
-    "00_📥index",
-    "Welcome.md"
+    "10_🧰Templates/ログテンプレート_月次_.md",
+    "10_🧰Templates/ログテンプレート_週次_.md",
+    "10_🧰Templates/週次テンプレート.md",
+    "10_🧰Templates/月次テンプレート.md",
+    "09_📘Manuals/Obsidian/Minimal_Theme_Settingsの使い方.md",
+    "09_📘Manuals/GitHub/GitHub Desktopの使い方.md",
+    "09_📘Manuals/Obsidian/QuickAddの使い方.md",
+    "09_📘Manuals/GitHub/Obsidian_GitHubManuals/GitHub Desktopの使い方.md",
+    "09_📘Manuals/GitHub/Obsidian_GitHubManuals",
+    "09_📘Manuals/GitHub/Obsidian_GitHubManuals.zip",
+    "09_📘Manuals/GitHub/gitignoreの設定解説.md",
+    "09_📘Manuals/Obsidian/Style Settingsの使い方.md",
+    "09_📘Manuals/Obsidian/Templaterの使い方.md",
+    "09_📘Manuals/Obsidian/Periodic_Notesの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST/Templaterの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST/Style Settingsの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST/QuickAddの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST.zip",
+    "09_📘Manuals/Obsidian/Dataviewプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic/Minimal_Theme_Settingsの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic/Periodic_Notesの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic.zip",
+    "09_📘Manuals/Obsidian/Calendarプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/Dataviewの構文例.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview/Dataviewプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview/Calendarプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview",
+    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview.zip",
+    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Dataviewプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Calendarプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview/Dataviewプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview/Calendarプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview",
+    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview.zip"
   ]
 }

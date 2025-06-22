@@ -1,7 +1,9 @@
 ---
 title: ChatGPT用プロンプト（Obsidian＋Dataview対応）
-tags: [テンプレート, プロンプト, Obsidian運用]
-type: template
+tags:
+  - プロンプト
+  - Obsidian運用
+type: guide
 status: published
 created: 2025-06-20
 updated: 2025-06-20

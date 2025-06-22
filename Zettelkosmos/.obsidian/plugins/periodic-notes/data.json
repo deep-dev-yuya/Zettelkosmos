@@ -1,0 +1,33 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "YYYY-MM-DD",
+    "template": "10_🧰Templates/ログテンプレート_日次_.md",
+    "folder": "07_📓Logs",
+    "enabled": false
+  },
+  "weekly": {
+    "format": "gggg-[W]ww",
+    "template": "10_🧰Templates/ログテンプレート_週次_.md",
+    "folder": "07_📓Logs",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "YYYY年MM月",
+    "template": "10_🧰Templates/ログテンプレート_月次_.md",
+    "folder": "07_📓Logs",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}
