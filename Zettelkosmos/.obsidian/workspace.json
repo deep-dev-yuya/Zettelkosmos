@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "90_📦Archive/n8n自己ホスト運用まとめ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "n8n自己ホスト運用まとめ"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_Guides/Markdown_Structure_Guide_Revised.md",
+                "file": "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
                 "mode": "source",
                 "source": false
               },
@@ -49,8 +49,7 @@
               "title": "Zettelkosmos_Setup_TaskList"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "beae9eb36d5d8dd7",
@@ -62,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_📓Logs/2025-06-22.md",
+                "file": "05_📚Reference/ShortCut_Mac基本.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-22"
+              "title": "ShortCut_Mac基本"
             }
           }
         ]
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_📓Logs/2025-06-22.md",
+                "file": "20_🛠️Projects/n8n_docker_task_list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-06-22へのバックリンク"
+              "title": "n8n_docker_task_listへのバックリンク"
             }
           },
           {
@@ -190,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_📓Logs/2025-06-22.md",
+                "file": "20_🛠️Projects/n8n_docker_task_list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-22のアウトライン"
+              "title": "n8n_docker_task_listのアウトライン"
             }
           },
           {
@@ -226,46 +225,45 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "periodic-notes:Open today": false,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "aa588430a5d40d30",
+  "active": "e573e7398441f1e2",
   "lastOpenFiles": [
-    "10_🧰Templates/ログテンプレート_月次_.md",
+    "90_📦Archive/Untitled.md",
+    "90_📦Archive/n8n自己ホスト運用まとめ.md",
+    "10_🧰Templates/AI提案チェックリスト.md",
+    "20_🛠️Projects/n8n_docker_task_list.md",
+    "20_🛠️Projects/n8n_docker_setup_summary.md",
+    "README.md.md",
+    "05_📚Reference/ShortCut_Mac基本.md",
+    "00_📥index/Shortcut_MOC.md",
+    "00_📥index/Git_Obsidian_Guide_MOC.md",
+    "10_🧰Templates/ログテンプレート_日次_.md",
     "10_🧰Templates/ログテンプレート_週次_.md",
-    "10_🧰Templates/週次テンプレート.md",
-    "10_🧰Templates/月次テンプレート.md",
-    "09_📘Manuals/Obsidian/Minimal_Theme_Settingsの使い方.md",
+    "10_🧰Templates/ログテンプレート_月次_.md",
+    "05_📚Reference/GitHub_Push_Guide_For_Beginners.md",
+    "09_📘Manuals/Obsidian/Periodic_Notesの使い方.md",
+    "20_🛠️Projects/Zettelkosmos_Setup_TaskList.md",
+    "07_📓Logs/2025-06-22.md",
+    "05_📚Reference/dataview_guide.md",
+    "09_📘Manuals/Obsidian/Dataviewプラグインの使い方.md",
+    "09_📘Manuals/Obsidian/Calendarプラグインの使い方.md",
     "09_📘Manuals/GitHub/GitHub Desktopの使い方.md",
-    "09_📘Manuals/Obsidian/QuickAddの使い方.md",
-    "09_📘Manuals/GitHub/Obsidian_GitHubManuals/GitHub Desktopの使い方.md",
+    "05_📚Reference/Shortcut_Obsidian.md",
+    "05_📚Reference/Shortcut_ArcBrowser.md",
+    "05_📚Reference/Dataview_Query_Sample.md",
+    "05_📚Reference/GitHub_Obsidian_構造ノート.md",
+    "03_🔩Tools/CSSスニペット構成記録.md",
+    "10_🧰Templates/週次テンプレート.md",
     "09_📘Manuals/GitHub/Obsidian_GitHubManuals",
     "09_📘Manuals/GitHub/Obsidian_GitHubManuals.zip",
-    "09_📘Manuals/GitHub/gitignoreの設定解説.md",
-    "09_📘Manuals/Obsidian/Style Settingsの使い方.md",
-    "09_📘Manuals/Obsidian/Templaterの使い方.md",
-    "09_📘Manuals/Obsidian/Periodic_Notesの使い方.md",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST/Templaterの使い方.md",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST/Style Settingsの使い方.md",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST/QuickAddの使い方.md",
     "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST",
     "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST.zip",
-    "09_📘Manuals/Obsidian/Dataviewプラグインの使い方.md",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic/Minimal_Theme_Settingsの使い方.md",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic/Periodic_Notesの使い方.md",
     "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic",
     "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic.zip",
-    "09_📘Manuals/Obsidian/Calendarプラグインの使い方.md",
-    "09_📘Manuals/Obsidian/Dataviewの構文例.md",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview/Dataviewプラグインの使い方.md",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview/Calendarプラグインの使い方.md",
     "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview",
     "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview.zip",
-    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Dataviewプラグインの使い方.md",
-    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Calendarプラグインの使い方.md",
-    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview/Dataviewプラグインの使い方.md",
-    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview/Calendarプラグインの使い方.md",
     "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview",
     "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview.zip"
   ]

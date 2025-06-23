@@ -25,7 +25,7 @@ updated: 2025-06-21
 - [x] QuickAdd の導入と初期設定
 - [x] Templater の導入とYAMLテンプレの確認
 - [x] Periodic Notes / Calendar の導入
-- [ ] Tag Wrangler の導入
+- [x] Tag Wrangler の導入
 - [ ] Tasksの導入
 - [ ] Advanced Tablesの導入
 - [ ] DataviewJS の検証（余裕があれば）
