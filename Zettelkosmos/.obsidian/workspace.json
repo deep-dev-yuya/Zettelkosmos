@@ -67,12 +67,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_📓Logs/2025-06-25.md",
+                "file": "08_🧩Guides/GeminiCLI_Command_Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-25"
+              "title": "GeminiCLI_Command_Guide"
             }
           }
         ]
@@ -234,14 +234,16 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "84845525b64970a2",
+  "active": "7bf602b209f4407e",
   "lastOpenFiles": [
-    "90_📦Archive/n8n_docker_update_guide.md",
+    "05_📚Reference/Shortcut_iTerm2.md",
+    "08_🧩Guides/GeminiCLI_Command_Guide.md",
+    "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
     "08_🧩Guides/n8n_docker_update_guide_20250626.md",
     "07_📓Logs/2025-06-26_n8n_email_filter_log.md",
-    "07_📓Logs/2025-06-26.md",
-    "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
     "07_📓Logs/2025-06-25.md",
+    "90_📦Archive/n8n_docker_update_guide.md",
+    "07_📓Logs/2025-06-26.md",
     "08_🧩Guides/github_push_guide.md",
     "10_🧰Templates/ログテンプレート_日次_.md",
     "07_📓Logs/2025-06-22.md",
@@ -260,8 +262,6 @@
     "10_🧰Templates/ログテンプレート_月次_.md",
     "05_📚Reference/GitHub_Push_Guide_For_Beginners.md",
     "09_📘Manuals/Obsidian/Periodic_Notesの使い方.md",
-    "20_🛠️Projects/Zettelkosmos_Setup_TaskList.md",
-    "05_📚Reference/dataview_guide.md",
     "09_📘Manuals/GitHub/Obsidian_GitHubManuals",
     "09_📘Manuals/GitHub/Obsidian_GitHubManuals.zip",
     "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST",
