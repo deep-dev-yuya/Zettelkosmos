@@ -38,26 +38,6 @@
         ]
       },
       {
-        "id": "c8ff7849a44f0b2a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7bf602b209f4407e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "90_📦Archive/n8n_log_monitoring_summary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "n8n_log_monitoring_summary"
-            }
-          }
-        ]
-      },
-      {
         "id": "e4d113f26da2645a",
         "type": "tabs",
         "children": [
@@ -73,6 +53,26 @@
               },
               "icon": "lucide-file",
               "title": "GeminiCLI_Command_Guide"
+            }
+          }
+        ]
+      },
+      {
+        "id": "db1c07de4b2ac437",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "097da5469286b2a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07_📓Logs/2025-06-22.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-06-22"
             }
           }
         ]
@@ -234,20 +234,21 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5e63329a39c86b7b",
+  "active": "097da5469286b2a3",
   "lastOpenFiles": [
-    "07_📓Logs/2025-06-27.md",
-    "07_📓Logs/2025-06-26_n8n_email_filter_log.md",
-    "07_📓Logs/2025-06-25.md",
     "07_📓Logs/2025-06-24.md",
+    "07_📓Logs/2025-06-25.md",
+    "07_📓Logs/2025-06-26_n8n_email_filter_log.md",
+    "07_📓Logs/2025-06-27.md",
+    "07_📓Logs/2025-06-28.md",
+    "08_🧩Guides/GeminiCLI_Command_Guide.md",
+    "10_🧰Templates/ログテンプレート_日次_.md",
     "07_📓Logs/2025-06-22.md",
     "10_🧰Templates/ログテンプレート_月次_.md",
-    "10_🧰Templates/ログテンプレート_日次_.md",
     "10_🧰Templates/ログテンプレート_週次_.md",
     "90_📦Archive/n8n_log_monitoring_summary.md",
     "90_📦Archive/Untitled.md",
     "10_🧰Templates/AI提案チェックリスト.md",
-    "08_🧩Guides/GeminiCLI_Command_Guide.md",
     "05_📚Reference/Shortcut_iTerm2.md",
     "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
     "08_🧩Guides/n8n_docker_update_guide_20250626.md",
@@ -261,7 +262,6 @@
     "README.md.md",
     "05_📚Reference/ShortCut_Mac基本.md",
     "00_📥index/Shortcut_MOC.md",
-    "00_📥index/Git_Obsidian_Guide_MOC.md",
     "09_📘Manuals/GitHub/Obsidian_GitHubManuals",
     "09_📘Manuals/GitHub/Obsidian_GitHubManuals.zip",
     "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST",
