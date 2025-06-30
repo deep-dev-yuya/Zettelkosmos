@@ -67,12 +67,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_📓Logs/2025-06-22.md",
+                "file": "08_🧩Guides/obsidian_web_template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-22"
+              "title": "obsidian_web_template"
             }
           }
         ]
@@ -236,14 +236,31 @@
   },
   "active": "097da5469286b2a3",
   "lastOpenFiles": [
+    "08_🧩Guides/quote_usage_guide.md",
+    "08_🧩Guides/terminal_rules_summary.md",
+    "05_📚Reference/ShortCut_Mac基本.md",
+    "00_📥index/Shortcut_MOC.md",
+    "00_📥index/Git_Obsidian_Guide_MOC.md",
     "07_📓Logs/2025-06-24.md",
     "07_📓Logs/2025-06-25.md",
-    "07_📓Logs/2025-06-26_n8n_email_filter_log.md",
-    "07_📓Logs/2025-06-27.md",
     "07_📓Logs/2025-06-28.md",
+    "08_🧩Guides/obsidian_image_note_template.md",
+    "08_🧩Guides/obsidian_web_template.md",
+    "テンプレートまとめ.md",
+    "08_🧩Guides/ターミナル基本ルールまとめ（terminal_rules_summary.md）",
+    "08_🧩Guides/obsidian_image_note_template.md をダウンロード",
+    "08_🧩Guides/obsidian_webstyle_template.md をダウンロード",
+    "08_🧩Guides/obsidian_navigation_template.md をダウンロード",
+    "08_🧩Guides/terminal_rules_summary.md をダウンロード",
+    "08_🧩Guides/画像付きノートテンプレート",
+    "08_🧩Guides/Webサイト構成テンプレート",
+    "08_🧩Guides/ナビゲーションバーテンプレート",
+    "08_🧩Guides/ターミナル基本操作と記号のルールまとめ",
+    "07_📓Logs/2025-06-26.md",
+    "07_📓Logs/2025-06-27.md",
+    "07_📓Logs/2025-06-22.md",
     "08_🧩Guides/GeminiCLI_Command_Guide.md",
     "10_🧰Templates/ログテンプレート_日次_.md",
-    "07_📓Logs/2025-06-22.md",
     "10_🧰Templates/ログテンプレート_月次_.md",
     "10_🧰Templates/ログテンプレート_週次_.md",
     "90_📦Archive/n8n_log_monitoring_summary.md",
@@ -253,24 +270,7 @@
     "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
     "08_🧩Guides/n8n_docker_update_guide_20250626.md",
     "90_📦Archive/n8n_docker_update_guide.md",
-    "07_📓Logs/2025-06-26.md",
     "08_🧩Guides/github_push_guide.md",
-    "08_🧩Guides/GitHub_Menu_Guide.md",
-    "90_📦Archive/n8n自己ホスト運用まとめ.md",
-    "20_🛠️Projects/n8n_docker_task_list.md",
-    "20_🛠️Projects/n8n_docker_setup_summary.md",
-    "README.md.md",
-    "05_📚Reference/ShortCut_Mac基本.md",
-    "00_📥index/Shortcut_MOC.md",
-    "09_📘Manuals/GitHub/Obsidian_GitHubManuals",
-    "09_📘Manuals/GitHub/Obsidian_GitHubManuals.zip",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_QST.zip",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Theme_Periodic.zip",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview",
-    "09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview.zip",
-    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview",
-    "09_📘Manuals/Obsidian/09_📘Manuals/Obsidian/Obsidian_PluginManuals_Calendar_Dataview.zip"
+    "09_📘Manuals/GitHub/Obsidian_GitHubManuals"
   ]
 }
