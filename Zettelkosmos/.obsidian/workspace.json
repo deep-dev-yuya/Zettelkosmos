@@ -6,7 +6,7 @@
       {
         "id": "2585b94bb4a5d337",
         "type": "tabs",
-        "dimension": 34.74770642201835,
+        "dimension": 49.090909090909086,
         "children": [
           {
             "id": "828779e9b9537a7d",
@@ -41,7 +41,7 @@
       {
         "id": "e4d113f26da2645a",
         "type": "tabs",
-        "dimension": 30.38990825688073,
+        "dimension": 50.90909090909091,
         "children": [
           {
             "id": "5e63329a39c86b7b",
@@ -56,16 +56,9 @@
               "icon": "lucide-file",
               "title": "GeminiCLI_Command_Guide"
             }
-          }
-        ]
-      },
-      {
-        "id": "db1c07de4b2ac437",
-        "type": "tabs",
-        "dimension": 34.86238532110091,
-        "children": [
+          },
           {
-            "id": "097da5469286b2a3",
+            "id": "50cd6964d14b251f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +71,8 @@
               "title": "github_push_guide"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -237,10 +231,25 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "097da5469286b2a3",
+  "active": "50cd6964d14b251f",
   "lastOpenFiles": [
-    "08_🧩Guides/CodeX_Prompt_Guide_Dataview.md",
+    "08_🧩Guides/GeminiCLI_Command_Guide.md",
+    "08_🧩Guides/github_push_guide.md",
+    "20_🛠️Projects/Zettelkosmos_Setup_TaskList.md",
+    "20_🛠️Projects/n8n_docker_task_list.md",
+    "07_📓Logs/2025-07-03.md",
+    "00_📥index/GEMINI_Zettelkosmos_Guide.md",
+    "05_📚Reference/openai_ai_news_2025_07.md",
+    "07_📓Logs/2025-06-24.md",
+    "08_🧩Guides/tmux_workspace_guide.md",
+    "08_🧩Guides/tmux_guide_obsidian_fixed.md",
+    "08_🧩Guides/tmux_workspace_guide.md ",
+    "08_🧩Guides/tmux_workspace_guide.md をダウンロード",
     "07_📓Logs/2025-07-02.md",
+    "08_🧩Guides/tmux_guide_obsidian.md",
+    "10_🧰Templates/ログテンプレート_日次_.md",
+    "07_📓Logs/2025-06-28.md",
+    "08_🧩Guides/CodeX_Prompt_Guide_Dataview.md",
     "08_🧩Guides/obsidian_web_template.md",
     "08_🧩Guides/CodeX_Prompt_Guide.md",
     "08_🧩Guides/quote_usage_guide.md",
@@ -248,9 +257,7 @@
     "05_📚Reference/ShortCut_Mac基本.md",
     "00_📥index/Shortcut_MOC.md",
     "00_📥index/Git_Obsidian_Guide_MOC.md",
-    "07_📓Logs/2025-06-24.md",
     "07_📓Logs/2025-06-25.md",
-    "07_📓Logs/2025-06-28.md",
     "08_🧩Guides/obsidian_image_note_template.md",
     "テンプレートまとめ.md",
     "08_🧩Guides/ターミナル基本ルールまとめ（terminal_rules_summary.md）",
@@ -261,19 +268,6 @@
     "08_🧩Guides/画像付きノートテンプレート",
     "08_🧩Guides/Webサイト構成テンプレート",
     "08_🧩Guides/ナビゲーションバーテンプレート",
-    "08_🧩Guides/ターミナル基本操作と記号のルールまとめ",
-    "07_📓Logs/2025-06-26.md",
-    "07_📓Logs/2025-06-27.md",
-    "07_📓Logs/2025-06-22.md",
-    "08_🧩Guides/GeminiCLI_Command_Guide.md",
-    "10_🧰Templates/ログテンプレート_日次_.md",
-    "10_🧰Templates/ログテンプレート_月次_.md",
-    "10_🧰Templates/ログテンプレート_週次_.md",
-    "90_📦Archive/n8n_log_monitoring_summary.md",
-    "90_📦Archive/Untitled.md",
-    "10_🧰Templates/AI提案チェックリスト.md",
-    "05_📚Reference/Shortcut_iTerm2.md",
-    "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
-    "09_📘Manuals/GitHub/Obsidian_GitHubManuals"
+    "07_📓Logs/2025-06-26.md"
   ]
 }

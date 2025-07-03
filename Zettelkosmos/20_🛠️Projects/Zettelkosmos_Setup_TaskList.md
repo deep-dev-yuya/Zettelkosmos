@@ -33,7 +33,7 @@ updated: 2025-06-21
 
 - [ ] ノートテンプレ構造設計（note / log / guide / project）
 - [ ] 学習ログ用テンプレ作成（自動日付付き）
-- [ ] デイリーノートの雛形整備（Periodic Notes対応）
+- [x] デイリーノートの雛形整備（Periodic Notes対応）
 
 ## 🗺 MOC（Map of Content）設計
 
