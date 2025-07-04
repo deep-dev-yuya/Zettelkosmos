@@ -4,7 +4,7 @@ aliases: [tmux 基本, ターミナル分割, セッション操作]
 created: 2025-07-02
 type: guide
 ---
-
+　　　　
 # tmux の基本と使い方ガイド
 
 ## 🧠 概要
