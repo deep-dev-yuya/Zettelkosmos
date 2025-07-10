@@ -4,66 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "2585b94bb4a5d337",
-        "type": "tabs",
-        "dimension": 27.68,
-        "children": [
-          {
-            "id": "ff56b228d4339e4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "08_🧩Guides/github_push_guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "github_push_guide"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e4d113f26da2645a",
-        "type": "tabs",
-        "dimension": 31.680000000000003,
-        "children": [
-          {
-            "id": "5e63329a39c86b7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "08_🧩Guides/GeminiCLI_Command_Guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GeminiCLI_Command_Guide"
-            }
-          },
-          {
-            "id": "50cd6964d14b251f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Markdown_Structure_Guide_Revised"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "365e525690fb330b",
         "type": "tabs",
-        "dimension": 40.64,
+        "dimension": 48.33215046132008,
         "children": [
           {
             "id": "95a94f00a94a2a6c",
@@ -71,12 +14,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_🛠️Projects/gmail_to_line_workflow.md",
+                "file": "08_🧩Guides/GeminiCLI_Command_Guide.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GeminiCLI_Command_Guide"
+            }
+          }
+        ]
+      },
+      {
+        "id": "635e3d379bde28a5",
+        "type": "tabs",
+        "dimension": 51.66784953867991,
+        "children": [
+          {
+            "id": "8937931dea05934f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "90_📦Archive/Obsidian_Free_Integration_Tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gmail_to_line_workflow"
+              "title": "Obsidian_Free_Integration_Tasks"
+            }
+          },
+          {
+            "id": "87d903b0de9700ab",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
             }
           }
         ]
@@ -136,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 225.5
   },
   "right": {
     "id": "a9f0678e2efd0cbe",
@@ -223,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 228.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,46 +209,47 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "simple-password:Vault is locked": false
     }
   },
-  "active": "88cf340a3ee2f50f",
+  "active": "8937931dea05934f",
   "lastOpenFiles": [
-    "08_🧩Guides/obsidian_web_template.md",
+    "90_📦Archive/Cursor_Pro_Trial_Tasks.md",
+    "90_📦Archive/Obsidian_Free_Integration_Tasks.md",
+    "90_📦Archive/n8n_docker_update_guide.md",
+    "09_📘Manuals/Cursor/Cursor_Claude_Integration.md",
+    "90_📦Archive/Untitled.md",
+    "09_📘Manuals/Cursor/Cursor_Update_and_Extend.md",
+    "09_📘Manuals/Cursor/Cursor_Troubleshoot_FAQ.md",
+    "09_📘Manuals/Cursor/Cursor_Techniques.md",
+    "09_📘Manuals/Cursor/Cursor_Shortcuts.md",
+    "09_📘Manuals/Cursor/Cursor_Recommended_Settings.md",
+    "09_📘Manuals/Cursor/Cursor_Obsidian_Integration.md",
+    "09_📘Manuals/Cursor/Cursor_Install_and_Basics.md",
+    "09_📘Manuals/Cursor/Cursor_Guide_Index.md",
+    "09_📘Manuals/Cursor/Cursor_Community_Links.md",
+    "09_📘Manuals/Cursor",
+    "README.md.md",
+    "03_🔩Tools/無題のファイル.md",
+    "00_📥index/Git_Obsidian_Guide_MOC.md",
+    "00_📥index/GEMINI_Zettelkosmos_Guide.md",
+    "08_🧩Guides/github_push_guide_static.md",
+    "08_🧩Guides/n8n_docker_update_guide_20250626.md",
+    "08_🧩Guides/GeminiCLI_Command_Guide.md",
     "08_🧩Guides/GitHub_Menu_Guide.md",
     "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
-    "10_🧰Templates/ログテンプレート_日次_.md",
-    "20_🛠️Projects/Zettelkosmos_Setup_TaskList.md",
-    "08_🧩Guides/n8n_docker_update_guide_20250626.md",
-    "08_🧩Guides/github_push_guide.md",
-    "03_🔩Tools/CSSスニペット構成記録.md",
-    "07_📓Logs/2025-07-08.md",
-    "07_📓Logs/2025-07-04.md",
-    "20_🛠️Projects/Gmail分類PoC手順書_MCP連携版.md",
-    "05_📚Reference/Shortcut_Obsidian.md",
-    "20_🛠️Projects/gmail_to_line_workflow.md",
-    "20_🛠️Projects/n8n_docker_task_list.md",
-    "2025-07-04.md",
-    "07_📓Logs/2025-07-03.md",
-    "00_📥index/Shortcut_MOC.md",
-    "08_🧩Guides/tmux_guide_obsidian_fixed.md",
-    "08_🧩Guides/tmux_workspace_guide.md",
-    "08_🧩Guides/GeminiCLI_Command_Guide.md",
-    "00_📥index/GEMINI_Zettelkosmos_Guide.md",
-    "05_📚Reference/openai_ai_news_2025_07.md",
-    "07_📓Logs/2025-06-24.md",
+    "08_🧩Guides/CodeX_Prompt_Guide_Dataview.md",
+    "08_🧩Guides/obsidian_image_note_template.md",
+    "08_🧩Guides/Cursor/Cursor_Recommended_Settings.md",
+    "08_🧩Guides/Cursor",
     "08_🧩Guides/tmux_workspace_guide.md ",
     "08_🧩Guides/tmux_workspace_guide.md をダウンロード",
-    "07_📓Logs/2025-07-02.md",
-    "08_🧩Guides/tmux_guide_obsidian.md",
-    "07_📓Logs/2025-06-28.md",
     "08_🧩Guides/ターミナル基本ルールまとめ（terminal_rules_summary.md）",
     "08_🧩Guides/obsidian_image_note_template.md をダウンロード",
     "08_🧩Guides/obsidian_webstyle_template.md をダウンロード",
     "08_🧩Guides/obsidian_navigation_template.md をダウンロード",
     "08_🧩Guides/terminal_rules_summary.md をダウンロード",
-    "08_🧩Guides/画像付きノートテンプレート",
-    "08_🧩Guides/Webサイト構成テンプレート",
-    "08_🧩Guides/ナビゲーションバーテンプレート"
+    "08_🧩Guides/画像付きノートテンプレート"
   ]
 }

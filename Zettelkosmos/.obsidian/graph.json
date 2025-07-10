@@ -1,22 +1,93 @@
 {
   "collapse-filter": true,
-  "search": "",
-  "showTags": false,
-  "showAttachments": false,
-  "hideUnresolved": false,
+  "search": "-tag:#log",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#Gemini ",
+      "color": {
+        "a": 1,
+        "rgb": 5404128
+      }
+    },
+    {
+      "query": "tag:#n8n",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#Git  ",
+      "color": {
+        "a": 1,
+        "rgb": 7951536
+      }
+    },
+    {
+      "query": "tag:#Docker  ",
+      "color": {
+        "a": 1,
+        "rgb": 2535113
+      }
+    },
+    {
+      "query": "tag:#GitHub  ",
+      "color": {
+        "a": 1,
+        "rgb": 15758336
+      }
+    },
+    {
+      "query": "tag:#guide  ",
+      "color": {
+        "a": 1,
+        "rgb": 12980398
+      }
+    },
+    {
+      "query": "tag:#MCP  ",
+      "color": {
+        "a": 1,
+        "rgb": 13774174
+      }
+    },
+    {
+      "query": "tag:#ショートカット  ",
+      "color": {
+        "a": 1,
+        "rgb": 13418286
+      }
+    },
+    {
+      "query": "tag:#tmux  ",
+      "color": {
+        "a": 1,
+        "rgb": 12886336
+      }
+    },
+    {
+      "query": "tag:#cursor  ",
+      "color": {
+        "a": 1,
+        "rgb": 61600
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 2.57731526692708,
+  "lineSizeMultiplier": 2.44552408854167,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
+  "linkStrength": 0.443806966145833,
+  "linkDistance": 263,
+  "scale": 0.6017333309181718,
   "close": true
 }
