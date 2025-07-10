@@ -16,5 +16,13 @@
       ],
       "key": "T"
     }
+  ],
+  "window:zoom-in": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "+"
+    }
   ]
 }
