@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_🧠Notes/Cursor_AI_Assistant_Understanding.md",
-                "mode": "preview",
+                "file": "07_📓Logs/2025-07-12.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cursor_AI_Assistant_Understanding"
+              "title": "2025-07-12"
             }
           },
           {
@@ -210,19 +210,26 @@
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
       "periodic-notes:Open this week": false,
-      "simple-password:Vault is locked": false
+      "simple-password:Vault is locked": false,
+      "markdown-importer:Markdownインポーターを開く": false
     }
   },
   "active": "8937931dea05934f",
   "lastOpenFiles": [
-    "08_🧩Guides/github_push_guide_static.md",
+    "08_🧩Guides/ホットキー割当て一覧.md",
+    "07_📓Logs/2025-07-12.md",
+    "08_🧩Guides/GeminiCLI_Command_Guide.md",
+    "08_🧩Guides/Excalidraw_図解作成ガイド.md",
+    "08_🧩Guides/tmux_workspace_guide.md",
+    "08_🧩Guides/tmux_guide_obsidian_fixed.md",
+    "08_🧩Guides/terminal_rules_summary.md",
     "06_🧠Notes/Cursor_AI_Assistant_Understanding.md",
+    "08_🧩Guides/github_push_guide_static.md",
     "06_🧠Notes/Zettelkosmos_Project_Context.md",
     "06_🧠Notes/AI_Assistant_Session_Management.md",
     "00_📥index/GEMINI_Zettelkosmos_Guide.md",
     "00_📥index/Git_Obsidian_Guide_MOC.md",
     "90_📦Archive/Obsidian_Free_Integration_Tasks.md",
-    "08_🧩Guides/GeminiCLI_Command_Guide.md",
     "90_📦Archive/Cursor_Pro_Trial_Tasks.md",
     "90_📦Archive/n8n_docker_update_guide.md",
     "09_📘Manuals/Cursor/Cursor_Claude_Integration.md",
@@ -235,13 +242,7 @@
     "09_📘Manuals/Cursor/Cursor_Obsidian_Integration.md",
     "09_📘Manuals/Cursor/Cursor_Install_and_Basics.md",
     "09_📘Manuals/Cursor/Cursor_Guide_Index.md",
-    "09_📘Manuals/Cursor/Cursor_Community_Links.md",
     "09_📘Manuals/Cursor",
-    "README.md.md",
-    "03_🔩Tools/無題のファイル.md",
-    "08_🧩Guides/n8n_docker_update_guide_20250626.md",
-    "08_🧩Guides/GitHub_Menu_Guide.md",
-    "08_🧩Guides/Markdown_Structure_Guide_Revised.md",
     "08_🧩Guides/Cursor",
     "08_🧩Guides/tmux_workspace_guide.md ",
     "08_🧩Guides/tmux_workspace_guide.md をダウンロード",

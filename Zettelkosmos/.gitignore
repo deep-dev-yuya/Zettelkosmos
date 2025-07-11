@@ -5,6 +5,8 @@
 .obsidian/cache
 .obsidian/workspace.json
 
-# その他：一時ファイルやバックアップ
-*.tmp
-*.bak
+# プロジェクト一時出力・AI処理中間ファイルなど
+.tmp/  # commit_diff.txt や Claude出力など
+
+# コードエディタやAIツールが作るバックアップ
+*.bak  # backup.bak や draft.bak など
