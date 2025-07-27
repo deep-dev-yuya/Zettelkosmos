@@ -8,7 +8,7 @@ status: completed
 
 # 📌 Gmail分類PoC実装詳細（Claude Code版）
 
-本ドキュメントは、ZETTELKOSMOSの[[Gmail分類PoC手順書_MCP連携版]]をベースに、Claude Codeを活用して`/Users/hasegawayuya/Projects/dev-projects/gmail-classifier/`に完全な実装を行った詳細記録です。
+本ドキュメントは、ZETTELKOSMOSの[[Gmail分類PoC手順書_MCP連携版]]をベースに、Claude Codeを活用して`/Users/[ユーザー名]/Projects/dev-projects/gmail-classifier/`に完全な実装を行った詳細記録です。
 
 ---
 

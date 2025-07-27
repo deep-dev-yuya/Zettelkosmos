@@ -17,7 +17,7 @@ Gmail AI Classifier PoCプロジェクトの**Python仮想環境構築**を、�
 
 **実行日時**: 2025-07-13  
 **作業者**: Claude Code  
-**参照文書**: `/Users/hasegawayuya/Documents/仮想環境環境構築.txt`
+**参照文書**: `/Users/[ユーザー名]/Documents/仮想環境環境構築.txt`
 
 ---
 
@@ -26,8 +26,8 @@ Gmail AI Classifier PoCプロジェクトの**Python仮想環境構築**を、�
 | 項目 | 詳細 |
 |------|------|
 | **プロジェクト名** | Gmail AI Classifier PoC |
-| **プロジェクト場所** | `/Users/hasegawayuya/Projects/dev-projects/gmail-classifier` |
-| **仮想環境場所** | `/Users/hasegawayuya/envs/gmail-classifier-env` |
+| **プロジェクト場所** | `/Users/[ユーザー名]/Projects/dev-projects/gmail-classifier` |
+| **仮想環境場所** | `/Users/[ユーザー名]/envs/gmail-classifier-env` |
 | **技術スタック** | Flask + scikit-learn + n8n + MCP連携 |
 | **Python版** | Python 3.13.0 |
 
@@ -39,10 +39,10 @@ Gmail AI Classifier PoCプロジェクトの**Python仮想環境構築**を、�
 
 ```bash
 # 仮想環境作成（既存のenvsフォルダーに統一）
-python3 -m venv /Users/hasegawayuya/envs/gmail-classifier-env
+python3 -m venv /Users/[ユーザー名]/envs/gmail-classifier-env
 
 # 仮想環境有効化
-source /Users/hasegawayuya/envs/gmail-classifier-env/bin/activate
+source /Users/[ユーザー名]/envs/gmail-classifier-env/bin/activate
 
 # pip更新 (24.2 → 25.1.1)
 pip install --upgrade pip
@@ -88,9 +88,9 @@ pip install pytest==7.4.2 pytest-flask==1.2.0 black==23.7.0 flake8==6.0.0
 
 ```bash
 # Python環境確認
-which python  # /Users/hasegawayuya/envs/gmail-classifier-env/bin/python
+which python  # /Users/[ユーザー名]/envs/gmail-classifier-env/bin/python
 python --version  # Python 3.13.0
-echo $VIRTUAL_ENV  # /Users/hasegawayuya/envs/gmail-classifier-env
+echo $VIRTUAL_ENV  # /Users/[ユーザー名]/envs/gmail-classifier-env
 
 # 主要ライブラリ確認
 python -c "import flask, sklearn, pandas, numpy; print('✅ All core libraries imported successfully')"
@@ -132,7 +132,7 @@ python -c "from sklearn.feature_extraction.text import TfidfVectorizer; from skl
 
 ## ✅ 完了確認チェックリスト
 
-- [x] ✅ 仮想環境が`/Users/hasegawayuya/envs/gmail-classifier-env`に作成されている
+- [x] ✅ 仮想環境が`/Users/[ユーザー名]/envs/gmail-classifier-env`に作成されている
 - [x] ✅ 仮想環境が正常に有効化できる
 - [x] ✅ requirements.txtの全依存関係がエラーなくインストール済み
 - [x] ✅ Python環境と主要ライブラリ（Flask, scikit-learn）が正常動作
@@ -181,7 +181,7 @@ Cython.Compiler.Errors.CompileError: sklearn/linear_model/_cd_fast.pyx
 ### 仮想環境管理
 ```bash
 # 今後の有効化コマンド
-source /Users/hasegawayuya/envs/gmail-classifier-env/bin/activate
+source /Users/[ユーザー名]/envs/gmail-classifier-env/bin/activate
 
 # パッケージ確認
 pip list
