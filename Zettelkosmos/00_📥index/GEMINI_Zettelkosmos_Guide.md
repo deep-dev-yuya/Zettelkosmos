@@ -29,7 +29,7 @@
 - **Minimal Theme + JP Snippet** による視認性の高いUI
 - **ChatGPT / Gemini CLI** によるAI対話＋操作補助
 - **Git + GitHub連携** による完全ローカル運用＋定期push
-
+- 
 ---
 
 ## 🤖 AIとの連携例
