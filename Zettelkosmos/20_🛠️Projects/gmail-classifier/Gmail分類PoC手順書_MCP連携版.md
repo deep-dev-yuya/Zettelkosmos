@@ -20,7 +20,7 @@ status: ongoing
 - [x] Python 3.10+（venv推奨）
 - [x] tmux（セッション常駐用）
 - [ ] Google Sheets API認証
-- [ ] LINE Messaging API トークン発行
+- [x] LINE Messaging API トークン発行
 - [x] GitHubでプロジェクト管理
 
 ---
